@@ -313,7 +313,7 @@
             </a>
           </li>
           <li>
-            <a href="forms-validation.html">
+            <a href="forms-personnel.html">
               <i class="bi bi-circle"></i><span>ข้อมูลบุคลากรอื่น</span>
             </a>
           </li>
@@ -592,7 +592,18 @@
 
               <!-- Floating Labels Form -->
               <form class="row g-3">
-                <div class="col-md-16">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="State">
+                      <option selected>เลือก</option>
+                      <option value="3">นาย</option>
+                      <option value="4">นางสาว</option>
+                      <option value="5">นาง</option>
+                    </select>
+                    <label for="floatingSelect">คำนำหน้าชื่อ</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
                   <div class="form-floating">
                     <input type="text" class="form-control" id="floatingName" placeholder="Your Name">
                     <label for="floatingName">ชื่อ</label>
@@ -991,17 +1002,6 @@
               <br>
               <!-- General Form Elements -->
               <form>
-                <div class="row mb-3">
-                  <label class="col-sm-2 col-form-label">คำนำหน้าชื่อ</label>
-                  <div class="col-sm-10">
-                    <select class="form-select" aria-label="Default select example">
-                      <option selected>คำนำหน้าชื่อ</option>
-                      <option value="3">นาย</option>
-                      <option value="4">นางสาว</option>
-                      <option value="5">นาง</option>
-                    </select>
-                  </div>
-                </div>
 
                 <div class="row mb-3">
                   <label for="inputText" class="col-sm-2 col-form-label">ปีการศึกษา</label>
@@ -1135,15 +1135,16 @@
                   <div class="col-sm-10">
                     <select class="form-select" aria-label="Default select example">
                       <option selected>เลือก</option>
-                      <option value="0">อนุปริญญา</option>
-                      <option value="1">ปริญญาตรี</option>
-                      <option value="2">ประกาศนียบัตรบัณฑิต / เนติบัณฑิต</option>
-                      <option value="2">ปริญญาโท</option>
-                      <option value="2">ประกาศนียบัตรบัณฑิตชั้นสูง</option>
-                      <option value="2">ปริญญาเอก</option>
-                      <option value="2">ประกาศนียบัตร</option>
-                      <option value="2">ปริญญาเอก</option>
-                      <option value="2">ปริญญาเอก</option>
+                      <option value="14">อนุปริญญา</option>
+                      <option value="16">ปริญญาตรี</option>
+                      <option value="17">ประกาศนียบัตรบัณฑิต / เนติบัณฑิต</option>
+                      <option value="18">ปริญญาโท</option>
+                      <option value="19">ประกาศนียบัตรบัณฑิตชั้นสูง</option>
+                      <option value="20">ปริญญาเอก</option>
+                      <option value="21">ประกาศนียบัตร</option>
+                      <option value="22">ประกาศนียบัตรวิชาชีพ (ปวช.)</option>
+                      <option value="23">ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.)</option>
+                      <option value="24">ปริญญาตรีสายเทคโนโลยีหรือสายปฏิบัติการ (ทล.บ.)</option>
                     </select>
                   </div>
                 </div>
